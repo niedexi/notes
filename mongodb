@@ -1,0 +1,64 @@
+
+var c = db.collection.find()
+var doc = function() {return c.hasNext() ? c.next() : null;}
+c.objsLeftInBatch()
+
+-projection
+db.collection.find({rated: 'PG'}, {title: 1, -id: 0}).pretty()
+
+-comparison query operators
+$eq $gt $gte $in $lt $lte $ne $nin
+db.collection.find({rated: {$in: ['G', 'PG']}}, {title: 1, rated: 1, _id: 0})
+
+-element
+$exists $type
+db.collection.find({'tomato.meter': {$exists: true})
+db.collection.find({'_id': {$type: 'string'}}).count()
+
+-logical
+$or $and $not $nor
+db.collection.find( { $or: [ { '': {} }, { '': {} } ] } )
+
+$regex
+db.collection.find( { "": { $regex: } } )
+
+-array
+$all $elemMatch $size
+db.collection.find( { genres: { $all: ["", "", ""] } } )
+
+-update
+db.collection.updateOne( {title: "the martian"}, { $set: { poster: } } )
+
+db.collection.replaceOne()
+
+db.collection.find( { runtime: { $gt:90, $lt:120 }}, { _id:0, title:1, runtime:1 } )
+
+mongoimport
+show dbs
+use 'db'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

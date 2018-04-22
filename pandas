@@ -1,0 +1,43 @@
+
+-ema
+ chart['close'].ewm(span=12,min_periods=0,adjust=True,ignore_na=False).mean()
+
+-sma
+ chart['close'].rolling(window=50,center=False).mean()
+
+s = pd.Series([1,3,5,7,9])
+dates = pd.date_range('20130101', periods=6)
+df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
+df2 = pd.DataFrame(Dict)
+
+df.head()
+df.tail(3)
+
+df.index
+df.columns
+df.values
+df.describe()
+df.T
+df.sort_index(axis=1, ascending=False)
+df.sort_values(by='B')
+
+df2 = df.copy()
+pd.Series().shift(2)
+df.apple(f)
+
+pd.concat()
+pd.merge()
+df.append()
+df.groupby()
+
+pd.read_csv()
+
+
+
+
+
+
+
+
+
+

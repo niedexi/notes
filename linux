@@ -1,0 +1,12 @@
+
+inxi -Fxz
+tar -xzf
+
+dbus-launch dropbox start
+
+
+git config credential.helper store
+git push
+
+
+wget --recursive --no-parent / wget -r -np

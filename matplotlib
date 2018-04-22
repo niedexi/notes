@@ -1,0 +1,4 @@
+
+plt.rcParams['figure.figsize'] = (15, 5)
+
+
