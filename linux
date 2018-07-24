@@ -1,6 +1,7 @@
 
 inxi -Fxz
 tar -xzf
+ps aux | grep ~
 
 dbus-launch dropbox start
 
