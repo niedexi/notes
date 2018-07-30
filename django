@@ -1,9 +1,4 @@
 
-conda create --name myEnv django
-activate myEnv
-deactivate myEnv
-
-
 
 django-admin startproject *name
 
