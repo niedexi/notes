@@ -1,13 +1,23 @@
+C-M-[Backspace] : log out x window
+C-M-[F1~F6] : switch to terminal
+C-M-[F7] : back to x window
+startx : start x window
+exit : log out
+date : show date
+cal : show calendar
+bc : calculator
+info : 
+nano : text editor
+who : who's online
+netstat : connection status
+ps : print current processes -aux
+sync : flush file system buffers
+shutdown, reboot, halt, poweroff
+pwd, cd, ls, cp, mv, rm, mkdir
+
 
 inxi -Fxz
 tar -xzf
 ps aux | grep ~
-
-dbus-launch dropbox start
-
-
-git config credential.helper store
-git push
-
 
 wget --recursive --no-parent / wget -r -np
