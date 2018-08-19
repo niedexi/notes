@@ -1,12 +1,14 @@
 
-Create a new project
+Create a new project:
 ```
-django-admin startproject *name
+django-admin startproject <name>
 ```
 
-Basic commands
+
+Basic commands:
 ```
-manage.py startapp *name   # start a new app
+manage.py startapp <name>   # start a new app
 manage.py createsuperuser  # create admin superuser
 manage.py runserver        # run dev server
+```
 
