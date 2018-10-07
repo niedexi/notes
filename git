@@ -1,0 +1,14 @@
+
+git pull
+git commit -am "msg" # add and commit
+
+git log
+
+git branch # list all branch
+git branch <name> # create a new branch
+git checkout <name> # switch to branch
+
+git merge <name> # merge with another branch
+
+
+

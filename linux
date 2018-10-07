@@ -21,5 +21,6 @@ tar -xzf
 ps aux | grep ~
 
 wget --recursive --no-parent / wget -r -np
+wget -E -H -k -K -p (-e robots=off)
 
 exec bash -l
