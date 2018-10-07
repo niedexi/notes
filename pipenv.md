@@ -1,16 +1,12 @@
 
-```
-pipenv --rm  # remove the virtualenv
+pipenv --rm
 
-pipenv install
+pipenv install <pkg>
 
-pipenv uninstall
+pipenv uninstall <pkg>
 
-pipenv run COMMAND
+pipenv run <cmd>
 
 pipenv shell
 
-exit  # exit shell
-
-
-```
+exit
