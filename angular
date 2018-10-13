@@ -2,3 +2,5 @@
 ng new <name>
 ng serve --open
 ng build
+
+
