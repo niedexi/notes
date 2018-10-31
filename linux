@@ -26,3 +26,17 @@ wget --recursive --no-parent / wget -r -np
 wget -E -H -k -K -p (-e robots=off)
 
 exec bash -l
+
+nslookup
+hostname
+
+ping -c 4 example.com
+
+lsblk
+
+
+
+
+
+
+

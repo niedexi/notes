@@ -90,9 +90,6 @@ c-o :go back where you came
 c-i :go forward
 c-g :show your location in the file and file status
 c-d :show possible command completion
-CTRL-] - jump to tag
-CTRL-T - pop tag, return to preceding position
-CTRL-O - jump to older position
 
 
 :s/<old>/<new> :substitute new for the first old in a line type
