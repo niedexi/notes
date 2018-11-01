@@ -1,0 +1,18 @@
+
+httpd-tools
+
+cd /opt;mkdir app download logs work backup
+ping google.com
+yum list|grep gcc
+iptables -L
+iptables -F
+iptables -t nat -L
+iptables -t nat -F
+getenforce
+setenforce 0
+
+
+
+
+
+
