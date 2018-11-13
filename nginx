@@ -10,8 +10,9 @@ iptables -t nat -L
 iptables -t nat -F
 getenforce
 setenforce 0
-
-
+    
+nginx -V
+/etc/nginx
 
 
 

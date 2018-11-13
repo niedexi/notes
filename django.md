@@ -1,20 +1,16 @@
 
-```
-# Create a new project:
-django-admin startproject <name>
-```
+pipenv install django==<version>
 
-```
-# Basic commands:
+
+django-admin startproject <name>
+
 manage.py startapp <name>   # start a new app
 manage.py createsuperuser  # create admin superuser
 manage.py runserver        # run dev server
 
 manage.py makemigrations
 manage.py migrate
-```
 
-```
 # Settings:
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
@@ -26,9 +22,7 @@ AUTH_USER_MODEL = ""
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-```
 
-```
 # Snippet
 from django.shortcuts import HttpResponse, render, redirect
 
@@ -44,7 +38,7 @@ objects.get()
 .set()
 
 {% csrf_token %}
-```
+
 
 
 
