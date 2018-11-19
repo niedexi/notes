@@ -2,7 +2,7 @@
 pipenv install django==<version>
 
 
-django-admin startproject <name>
+django-admin startproject <name> .
 
 manage.py startapp <name>   # start a new app
 manage.py createsuperuser  # create admin superuser
