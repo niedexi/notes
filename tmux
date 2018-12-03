@@ -7,7 +7,7 @@ tmux new -s <name>, start new session with a name
 tmux a -t <name/number>, attach using name/number
 tmux a #, go to last created session
 tmux kill-server
-tmux kill-session -t *name
+tmux kill-session -t <name>
 
 C-b :, prompt
 C-b d, detach
