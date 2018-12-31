@@ -1,6 +1,39 @@
 
 ng new <name>
-ng serve --open
+ng serve -o
 ng build
+ng generate component <name>
+ng generate module <name>
+ng generate service <name>
+{{ <expression> }}, template interpolation
+
+*ngFor="let <item> of <items>"
+*ngIf="<expression>"
+
+@Input()
+
+(click)
+
+ngModel
+
+[()] banana-in-a-box
+
+HttpClientModule
+
+routerLink
+
+pipes
+
+
+
+
+
+
+
+
+
+
+
+
 
 
