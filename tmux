@@ -16,6 +16,7 @@ C-b %, split vertically
 C-b [arrow key], move between pane
 C-b x, kill pane
 C-b ?, list shortcuts
+C-b [, scroll
 
 :resize-pane -U/-D/-L/-R <number>, resize pane
 

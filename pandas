@@ -33,11 +33,12 @@ df.groupby()
 pd.read_csv()
 
 
+df.iloc[i] / df.iloc[[i]]
 
+for index, row in df.iterrows():
 
+df.['<column>'].count() / df.<column>.count()
 
-
-
-
+df.column.mean()
 
 

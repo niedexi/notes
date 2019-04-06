@@ -1,6 +1,6 @@
 
-type a # before a motion repeats it
-type a # with an operator repeats it
+type a <num> before a motion repeats it
+type a <num> with an operator repeats it
 
 -MOVEMENT-
 ```
@@ -17,8 +17,8 @@ gg :to start of the file
 W, B, E, gE :move white space separated WORDS
 H, M, L :home, middle, last of current screen
 
-#G :to line #
-#% :to # percent of the the file
+<num>G :to line <num>
+<num>% :to <num> percent of the the file
 
 % :find matching parens
 / :search a phrase

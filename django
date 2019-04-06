@@ -1,15 +1,16 @@
 
 pipenv install django==<version>
 
-
-django-admin startproject <name> .
+django-admin startproject <name> # create a new folder
+django-admin startproject <name> . # in current directory
 
 manage.py startapp <name>   # start a new app
 manage.py createsuperuser  # create admin superuser
 manage.py runserver        # run dev server
 
-manage.py makemigrations
-manage.py migrate
+manage.py migrate <optional name>
+manage.py makemigrations <optional name>
+
 
 # Settings:
 STATICFILES_DIRS = [

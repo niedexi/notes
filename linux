@@ -13,6 +13,7 @@ cal
 info 
 nano
 ps -aux
+tree
 
 shutdown, reboot, halt, poweroff
 pwd, cd, ls, ll, cp, mv, rm, mkdir

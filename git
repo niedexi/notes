@@ -1,3 +1,4 @@
+gitk
 
 git pull
 git commit -am "msg" # add and commit
